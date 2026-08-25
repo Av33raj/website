@@ -1,9 +1,13 @@
 :root {
     --colour-body: #222;
     --colour-bg:  rgb(247, 239, 229);
-    --colour--nav: #2c3e50;
+    --colour--nav: #46567a;
     --colour-nav-a: white;
     --colour-footer: #777;
+}
+@font-face {
+    font-family: 'CarterOne';
+    src: url(CarterOne-Regular.ttf);
 }
 
 body {
@@ -29,6 +33,11 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.welcome{
+    font-family: "CarterOne";
+    font-size: 3.3rem;
 }
 
 main {
