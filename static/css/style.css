@@ -1,9 +1,11 @@
 :root {
-    --colour-body: #222;
-    --colour-bg:  rgb(247, 239, 229);
-    --colour--nav: #46567a;
-    --colour-nav-a: white;
-    --colour-footer: #777;
+    --colour-body: #BFBFBF;
+    --colour-bg:  url(../backgroundimg.jpg);
+    --colour--nav: #161B40;
+    --colour-nav-a: rgb(255, 255, 255);
+    --colour-footer: rgb(120, 120, 120);
+    --colour-boarder:#212121;
+    
 }
 
 
@@ -13,7 +15,11 @@ body {
     padding: 0;
     color: var(--colour-body);
     line-height: 1.6;
-    background-color: var(--colour-bg);
+    background-image: var(--colour-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -22,7 +28,7 @@ nav {
 }
 
 nav a {
-    color: var(--colour-nav-a);
+    color: var(--colour-body);
     text-decoration: none;
     margin-right: 1.5rem;
     font-weight: bold;
@@ -41,9 +47,12 @@ p {
 }
 
 .page_content{
-        max-width: 700px;
+    max-width: 700px;
+    width: fit-content;
     margin: 2rem auto;
-    padding: 0 1rem;
+    padding: 1rem;
+    background-color: var(--colour-boarder);
+    border-radius: 2px;
 }
 
 .git_prof{
@@ -64,10 +73,6 @@ p {
     padding-left: 1rem;
     margin: 0 1.5rem 1rem 0;
     border-radius: 2px;
-}
-
-.page_content h1{
-    margin-left: -3rem;
 }
 
 
