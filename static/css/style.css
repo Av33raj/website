@@ -36,10 +36,34 @@ nav a:hover {
     font-size: 3.3rem;
 }
 
+p {
+    text-align: justify;
+}
+
 .page_content{
         max-width: 700px;
     margin: 2rem auto;
     padding: 0 1rem;
+}
+
+.git_prof{
+    float: right;
+    width: 35px;
+}
+
+.linkedin_prof{
+    padding-right: 0.5rem;
+    float: right;
+    width: 35px;
+}
+
+.about-photo {
+    float: right;
+    width: 200px;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    margin: 0 1.5rem 1rem 0;
+    border-radius: 2px;
 }
 
 .page_content h1{

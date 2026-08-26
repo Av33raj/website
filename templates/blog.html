@@ -6,6 +6,7 @@
     {% for post in posts %}
         <h2><a href="/blog/{{ post.slug }}">{{ post.title }}</a></h2>
         <p>{{ post.summary }}</p>
-    </div>
+    
     {% endfor %}
+</div>
 {% endblock %}
