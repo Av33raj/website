@@ -13,7 +13,7 @@ posts = [
     },
 
     {
-        "slug": "Brute-Force Detector",
+        "slug": "brute-force-detector",
         "title": "SSH/Auth Log Brute-Force Detector",
         "summary": "Distinguishing brute-Force attacks based around the number of log in attempts.",
         "content": "full right up goes here",
@@ -21,7 +21,7 @@ posts = [
     },
 
     { 
-        "slug":"Portfolio website",
+        "slug":"portfolio-website",
         "title": "Html/css Portfilio Website",
         "summary": "I built a built a protfolio website based arount the projects I have built and skills I am developing.",
         "content": "write up goes here",

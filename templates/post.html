@@ -3,6 +3,6 @@
 {% block content %}
 <div class = 'page_content'>
     <h1>{{ post.title }}</h1>
-    <p>{{ post.content }}</p>
+    {{ post.content_html | safe }}
 </div>
 {% endblock %}
