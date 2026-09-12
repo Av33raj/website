@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block title %}Blog{% endblock %}
 {% block content %}
-<div class = 'page_content'>
-    <h1>Blog</h1>
+<div class="blog_page" >
+    <h1 class = 'welcome' >Blog</h1>
     {% for post in posts %}
         <h2><a href="/blog/{{ post.slug }}">{{ post.title }}</a></h2>
-        <p>{{ post.summary }}</p>
+        <p class = 'page_content'>{{ post.summary }}</p>
     
     {% endfor %}
 </div>

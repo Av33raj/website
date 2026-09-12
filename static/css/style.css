@@ -1,34 +1,62 @@
 :root {
-    --colour-body: #BFBFBF;
+    --colour-body: #070707;
     --colour-bg:  url(../backgroundimg.jpg);
-    --colour--nav: #161B40;
-    --colour-nav-a: rgb(255, 255, 255);
-    --colour-footer: rgb(120, 120, 120);
-    --colour-boarder:#212121;
+    --colour_vs_bg: url(../VS_background.png);
+    --colour--nav: rgb(216, 142, 183);
+    --colour-nav-a: rgb(250, 247, 247);
+    --colour-footer: rgb(231, 72, 72);
+    --colour-boarder: rgb(153, 137, 129);
+    --colour-button: rgb(10, 26, 145);
+    --colour-background_image: linear-gradient(to bottom, rgb(124, 122, 119), rgba(0, 0, 0, 0.87));
+    --colour-linked: rgb(2, 70, 148);
     
 }
 
-
 body {
     font-family: Arial, sans-serif;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     color: var(--colour-body);
     line-height: 1.6;
-    background-image: var(--colour-bg);
+
+}
+.home_page{
+    background-image: url(../page_1.png);
+}
+.about_page{
+    background-image:url(../page_3.png);
+}
+.project_page{
+    background-image: url(../page_5.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.blog_page{
+    background-image: url(../projects_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.button{ 
+    background-color: var(--colour-button);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 14px;
 }
 
 nav {
     background: var(--colour--nav);
     padding: 1rem;
+    background: linear-gradient(to right, var(--colour--nav) 50%, transparent 100%);
 }
 
 nav a {
-    color: var(--colour-body);
+    color: var(--colour-nav-a);
     text-decoration: none;
     margin-right: 1.5rem;
     font-weight: bold;
@@ -38,21 +66,35 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.linked{
+    color: var(--colour-linked);
+}
+
 .welcome{
-    font-size: 3.3rem;
+    color: #000;
+    background-color: var(--colour--nav);
+    background-position: left;
+    font-size: 70px;
+    margin: 0;
+    background: linear-gradient(to right, var(--colour--nav) 40%, transparent 100%);
 }
 
 p {
-    text-align: justify;
+    text-align: left;
+    padding-left: 1rem;
 }
 
 .page_content{
     max-width: 700px;
     width: fit-content;
-    margin: 2rem auto;
-    padding: 1rem;
-    background-color: var(--colour-boarder);
-    border-radius: 2px;
+    padding-left: 1cm;
+}
+
+.page_content_about_me{
+    margin-left: 5cm;
+    max-width: 700px;
+    width: fit-content;
+
 }
 
 .git_prof{
@@ -67,19 +109,17 @@ p {
 }
 
 .about-photo {
-    float: right;
+    float:right;
     width: 200px;
-    padding-top: 3rem;
-    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 0rem;
     margin: 0 1.5rem 1rem 0;
     border-radius: 2px;
 }
 
-
 main {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 footer {
