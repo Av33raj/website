@@ -1,13 +1,13 @@
 posts = [
     {
-        "slug": "port-scanner",
+        "slug": "python-nmap-port-scanner",
         "title": "Python Port Scanner",
         "summary": "A tool built with python-nmap to scan and export results.",
 
     },
     {
-        "slug": "hand-tracking",
-        "title": "OpenCV Hand Tracking",
+        "slug": "hand-gesture-drawing-app",
+        "title": "hand-gesture-drawing-app",
         "summary": "Combining OpenCV and MediaPipe for hand landmark detection.",
 
     },
