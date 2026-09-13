@@ -1,15 +1,18 @@
 :root {
-    --colour-body: #070707;
+    --colour-body: rgb(7, 7, 7);
     --colour-bg:  url(../backgroundimg.jpg);
     --colour_vs_bg: url(../VS_background.png);
-    --colour--nav: rgb(216, 142, 183);
-    --colour-nav-a: rgb(250, 247, 247);
+    --colour--nav: rgb(241, 215, 158);
+    --colour-nav-a: rgb(8, 8, 8);
     --colour-footer: rgb(231, 72, 72);
     --colour-boarder: rgb(153, 137, 129);
-    --colour-button: rgb(10, 26, 145);
+    --colour-button: rgb(241, 215, 158);
     --colour-background_image: linear-gradient(to bottom, rgb(124, 122, 119), rgba(0, 0, 0, 0.87));
     --colour-linked: rgb(2, 70, 148);
     
+}
+@view-transition {
+    navigation: auto;
 }
 
 body {
@@ -33,18 +36,20 @@ body {
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+    background-attachment: scroll;
 }
 .blog_page{
     background-image: url(../projects_bg.png);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: top center;
     min-height: 100vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
 }
 
 .button{ 
     background-color: var(--colour-button);
-    color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
     padding: 1rem;
     font-size: 14px;
 }
