@@ -1,5 +1,6 @@
 # Building My Own Portfolio Website with Flask
 
+
 ## The problem
 
 I needed somewhere to actually show off the projects I've been building. A CV can list "Python, security tooling, networking" as bullet points, but it can't demonstrate any of it. I wanted a site I'd built myself, from scratch, that could double as proof of the skills it was describing — a working full-stack project, not just a static page listing my other projects.

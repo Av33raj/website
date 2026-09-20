@@ -29,5 +29,10 @@ posts = [
         "slug": "ad-gpo-homelab-blog-post",
         "title":"Built and administered a Windows Server Active Directory domain in a home lab",
         "summary": "Developing my knowledge of windows system by creating my own windows server",
+    },
+    {
+            "slug": "monitor-gpu-driver-troubleshooting_1",
+            "title":"Troubleshooting issue with second monitor",
+            "summary": "The second moniter of the setuup would not display and image or get a HDMI signal",
     }
 ]
