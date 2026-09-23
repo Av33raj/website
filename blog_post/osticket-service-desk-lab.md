@@ -75,5 +75,4 @@ This project is ongoing. The next stage is heading into the Active Directory lab
 From there, I'm building out a wider set of realistic tickets across the categories configured above — including a Group Policy fault I'll deliberately introduce and diagnose, a couple of low-priority hardware tickets, a security incident (a reported phishing attempt), and at least one ticket I escalate rather than resolve outright, since real service desks don't close everything cleanly. I'll follow up with a second post once that set is complete, along with a look at overall SLA performance across the full ticket log.
 
 ---
-
-*This project sits alongside my existing home Active Directory lab — you can read more about that build [here](#).*
+*
